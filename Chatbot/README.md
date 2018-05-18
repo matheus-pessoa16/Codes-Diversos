@@ -1,6 +1,6 @@
 # CHATBOT - C++ ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-This is a chatbot written in C++ for study purposes. This project is based on the "Chatbot Tutorial", that you can find here: https://www.codeproject.com/Articles/36106/Chatbot-Tutorial.
+This is a chatbot written in C++ for study purposes. This project is based on the "Chatbot Tutorial", that you can find here: https://www.codeproject.com/Articles/36106/Chatbot-Tutorial. I made modifications in some data structures just to test other options. 
 
 ## Installation
 
@@ -8,11 +8,15 @@ This is a chatbot written in C++ for study purposes. This project is based on th
 * Linux
 * C++ compiler (Recommended: G++).
 
-`$ g++ -std=c++14 -o chatbot chatbot.cpp`
+`$ make`
 
 ## Usage
 
-Just execute the chatbot file and start to talk. This version is limited, but continous improvements are been made.
+Just execute file inside the build/apps directory and start to talk. This version is limited, but continous improvements are been made.
+
+## Modifications
+
+Now the database is larger than before and we started to use OOP to modularization of the code. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
