@@ -3,7 +3,7 @@
 *
 * Para compilar:
 * cc -Wall connect.c -o connect
-*
+* Matheus Pessoa
 * Alexandre Fiori
 */
 #include <stdio.h>
